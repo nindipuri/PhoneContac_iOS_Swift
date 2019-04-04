@@ -12,6 +12,8 @@
 		46BD0B5922546D2600EFA432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BD0B5722546D2600EFA432 /* Main.storyboard */; };
 		46BD0B5B22546D2700EFA432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BD0B5A22546D2700EFA432 /* Assets.xcassets */; };
 		46BD0B5E22546D2700EFA432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BD0B5C22546D2700EFA432 /* LaunchScreen.storyboard */; };
+		46BD0B662254715900EFA432 /* PhoneContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD0B652254715900EFA432 /* PhoneContact.swift */; };
+		46BD0B682254726100EFA432 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD0B672254726100EFA432 /* ContactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		46BD0B5A22546D2700EFA432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BD0B5D22546D2700EFA432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BD0B5F22546D2700EFA432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BD0B652254715900EFA432 /* PhoneContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneContact.swift; sourceTree = "<group>"; };
+		46BD0B672254726100EFA432 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				46BD0B5322546D2600EFA432 /* AppDelegate.swift */,
 				46BD0B5522546D2600EFA432 /* ViewController.swift */,
+				46BD0B652254715900EFA432 /* PhoneContact.swift */,
+				46BD0B672254726100EFA432 /* ContactModel.swift */,
 				46BD0B5722546D2600EFA432 /* Main.storyboard */,
 				46BD0B5A22546D2700EFA432 /* Assets.xcassets */,
 				46BD0B5C22546D2700EFA432 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				46BD0B5622546D2600EFA432 /* ViewController.swift in Sources */,
 				46BD0B5422546D2600EFA432 /* AppDelegate.swift in Sources */,
+				46BD0B682254726100EFA432 /* ContactModel.swift in Sources */,
+				46BD0B662254715900EFA432 /* PhoneContact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
